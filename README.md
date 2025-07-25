@@ -67,14 +67,3 @@ A Python-based web application vulnerability scanner that detects common vulnera
 - **Persistent scan history:** Results are saved to `scan_history.json` and loaded on startup.
 
 ---
-
-## Project Structure
-webapp_vulnerability_scanner/
-│
-├── app.py               # Flask web app main file, handles routes & UI
-├── scanner.py           # Core crawler and vulnerability scanning logic
-├── requirements.txt     # Python dependencies list
-├── scan_history.json    # Persistent storage for scan results (Auto-generated)
-└── templates/           # Flask HTML templates
-    ├── index.html       # Home page with URL input and scan form
-    └── report.html      # Scan results and vulnerability report page                            
