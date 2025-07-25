@@ -1,0 +1,1 @@
+{"0": {"url": "https://hbh.sh/home", "results": [{"type": "Possible CSRF", "url": "https://hbh.sh/home", "severity": "Medium", "evidence": "No CSRF token found in form inputs."}]}}
