@@ -1,14 +1,14 @@
 ## Web Application Vulnerability Scanner
 
-A Python-based web application vulnerability scanner that detects common vulnerabilities in Web Applications like — XSS, SQL Injection, and CSRF issues — with a modern Flask web interface.
+A Python-based Web application vulnerability scanner that detects common vulnerabilities like — XSS, SQL Injection, and CSRF issues — with a modern Flask web interface in Web Applications .
 
 ---
 
 ### Features
 
-- **Automated website crawling** using requests and BeautifulSoup.
-- **Active vulnerability testing** (XSS, SQL Injection, CSRF token checks) for forms on each page.
-- **Modern, responsive web UI** (Bootstrap 5 + custom CSS).
+- **Automated Website crawling** using requests and BeautifulSoup.
+- **Active Vulnerability Testing** (XSS, SQL Injection, CSRF token checks) for forms on each page.
+- **Modern, Responsive web UI** (Bootstrap 5 + CSS).
 - **Scan history saved to disk** (JSON) for persistent reports.
 - **Severity-level reporting** for all discovered vulnerabilities.
 
@@ -17,7 +17,11 @@ A Python-based web application vulnerability scanner that detects common vulnera
 ### Screenshots
 ![Screenshot](webcheck.png)
 ![Screenshot](webres.png)
+
+Here I've Tested Another Website that has the Following Vulnerability:
+![Screenshot](webresult.png)
 ---
+Try it: 
 
 ### Getting Started
 
