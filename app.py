@@ -43,4 +43,4 @@ def report(scan_id):
         return "Report not found", 404
     return render_template('report.html', data=data, scan_id=scan_id)
 
-app.run(debug=True)
+app.run(host='0.0.0.0',debug=True)
